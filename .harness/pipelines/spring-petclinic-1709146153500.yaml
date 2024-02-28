@@ -29,7 +29,7 @@ pipeline:
                   name: mvn_build
                   spec:
                     shell: Sh
-                    command: "mvn build "
+                    command: "mvn clean install "
                   timeout: ""
                   type: Run
               - step:
