@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_initializ_mk_spring_petclinic_1709146156811-push-trigger-input-set
+  identifier: Build_initializ_mk_spring_petclinic_1709146156811pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: cloudspc
+  pipeline:
+    identifier: Build_initializ_mk_spring_petclinic_1709146156811
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
