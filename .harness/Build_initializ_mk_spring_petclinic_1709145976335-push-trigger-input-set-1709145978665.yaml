@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_initializ_mk_spring_petclinic_1709145976335-push-trigger-input-set
+  identifier: Build_initializ_mk_spring_petclinic_1709145976335pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: testspc
+  pipeline:
+    identifier: Build_initializ_mk_spring_petclinic_1709145976335
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
